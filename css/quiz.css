@@ -1,0 +1,119 @@
+body{
+	margin: 0 auto;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+}
+
+img {
+	width: 300px;
+    height: 350px;
+}
+
+#celebBox {
+    margin-bottom: 10px;
+}
+
+#final {
+	display: none;
+}
+
+.quiz_wrapper{
+	background-color: white;
+	margin:50px auto;
+	border-radius: 8px;
+}
+
+.quiz_wrapper .options{
+	float: left;
+	width: 100%;
+}
+
+.quiz_wrapper .options ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.quiz_wrapper .options ul li{
+	display: inline-block;
+	background-color: black;
+	width: 47%;
+	padding: 15px;
+	border-radius:8px;
+	margin-top: 25px;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.quiz_wrapper .options ul li.correct{
+	background-color: green;
+}
+
+.quiz_wrapper .options ul li.myus{
+	background-color: orange;
+}
+
+.quiz_wrapper .options ul li.wrong{
+	background-color: red;
+}
+
+.quiz_wrapper .score{
+	float: left;
+	width: 100%;
+	padding:25px 0px;
+}
+
+.quiz_wrapper .score .next{
+	width: 40%;
+	float: left;
+}
+
+.quiz_wrapper .score .next button{
+	padding: 15px 80px;
+	color:white;
+	background-color: orange;
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	outline: none;
+}
+
+.quiz_wrapper .score .score-card{
+	width: 60%;
+	float: left;
+}
+
+.quiz_wrapper .score .score-card{
+	font-size: 20px;
+	color: black;
+	text-transform: uppercase;
+}
+
+.quiz_wrapper .score .score-card span{
+	background-color: #4caf50;
+	padding: 5px 20px;
+	border-radius: 8px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+     <h1>Celebrities</h1>  
+	<div class="quiz_wrapper" align="center">
+
+    <p id="final"></p>
+
+    <div id="celebBox" align="center">
+
+    </div>
+           
+           <div class="options">
+           	  <ul id="ul">
+           	  	  <li id="op1" ondblclick="button(this)"></li>
+           	  	  <li id="op2" ondblclick="button(this)"></li>
+           	  	  <li id="op3" ondblclick="button(this)"></li>
+           	  	  <li id="op4" ondblclick="button(this)"></li>
+           	  </ul>
+           </div>
+           <div class="score">
+           	   <div class="next">
+           	   	  <button type="button" onclick="next()" id="button">Next</button>
+           	   </div>
+           	   <div class="score-card">
+           	   	  Score : <span id="scoreCard">0</span>
+           	   </div>
+           </div>
+
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>
